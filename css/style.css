@@ -1,0 +1,27 @@
+*{
+    padding: 0.5em;
+    margin:0;
+}
+
+body{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+select{
+    padding: 10px;
+    font-size:18px;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s e;
+    -moz-transition: all .4s e;
+    -ms-transition: all .4s e;
+    -o-transition: all .4s e;
+}
+
+select :nth-child(1){
+    background-color: orange;
+}
